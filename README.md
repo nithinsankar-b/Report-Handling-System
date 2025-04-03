@@ -74,9 +74,8 @@ Report-Handling-System/
    ```
 
 3. Set up the environment variables:
-   Create a `.env` file in the root directory with the following variables:
    ```
-   DATABASE_URL="your-database-connection-string"
+   $env:DATABASE_URL="your-database-connection-string"
    ```
 
 4. Set up the database:

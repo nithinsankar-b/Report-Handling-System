@@ -64,7 +64,7 @@ Report-Handling-System/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/report-handling-system.git
+   git clone https://github.com/nithinsankar-b/report-handling-system.git
    cd report-handling-system
    ```
 

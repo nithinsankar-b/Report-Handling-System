@@ -115,7 +115,7 @@ You can also access the live application on Vercel at the following link: [https
 - `PUT /api/reports/:id` - Update a report status
 - `GET /api/reports/:id` - Get a specific report
 - `PATCH /api/users` - Mark report as resolved
-- `GET /api/users/getUserByEmail - Fetch user by email 
+- `GET /api/users/getUserByEmail` - Fetch user by email 
 
 ## Acknowledgements
 

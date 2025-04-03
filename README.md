@@ -25,6 +25,10 @@ This is a full-stack Report Handling System built for ServiHub's trust and safet
 - Notifications for user actions
 - Sorting and pagination for the reports table
 
+## Pre-Configured Users
+- User: user1@servihub.com
+- Admin: admin@servihub.com
+
 ## Tech Stack
 
 - **Frontend**: Next.js with TypeScript
@@ -101,23 +105,17 @@ npm run build
 npm start
 ```
 
+### Deployed Version
+You can also access the live application on Vercel at the following link: [https://report-handling-system-dawmx13gu-nithinsankar-bs-projects.vercel.app/](https://report-handling-system-dawmx13gu-nithinsankar-bs-projects.vercel.app/)
+
 ## API Routes
 
-### Report Submission
 - `POST /api/reports` - Submit a new report
-
-### Report Management
 - `GET /api/reports` - Get all reports (with optional filtering)
 - `PUT /api/reports/:id` - Update a report status
 - `GET /api/reports/:id` - Get a specific report
-
-## Authentication
-
-The system includes role-based authentication to restrict admin functionality. Admin users can:
-
-- View all submitted reports
-- Resolve or reject reports
-- Filter and sort through reports
+- `PATCH /api/users` - Mark report as resolved
+- `GET /api/users/getUserByEmail - Fetch user by email 
 
 ## Acknowledgements
 

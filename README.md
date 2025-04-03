@@ -77,7 +77,6 @@ Report-Handling-System/
    Create a `.env` file in the root directory with the following variables:
    ```
    DATABASE_URL="your-database-connection-string"
-   # Add any other required environment variables
    ```
 
 4. Set up the database:
